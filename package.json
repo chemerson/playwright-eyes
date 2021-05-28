@@ -1,0 +1,27 @@
+{
+  "name": "playwright-eyes-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@applitools/eyes-playwright": "1.7.0",
+    "chai": "^4.3.4",
+    "chromedriver": "^90.0.1",
+    "geckodriver": "^1.22.3",
+    "mocha": "^8.4.0",
+    "npm": "^7.14.0"
+  },
+  "devDependencies": {
+    "commander": "^7.2.0",
+    "es6-promise-pool": "^2.5.0",
+    "playwright": "^1.11.1",
+    "sitemap-generator": "^8.5.1",
+    "sitemap-to-array": "^6.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "crawl": "node crawler.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
